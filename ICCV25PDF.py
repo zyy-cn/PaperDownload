@@ -69,7 +69,7 @@ raw_url = 'https://openaccess.thecvf.com/ICCV2025?day=all'
 html = getHtml(raw_url)
 url_lst = getUrl(html)
 
-root_dir = 'E:\Desktop\CVPR25'
+root_dir = 'E:\Desktop\ICCV2025'
 paper_dir = os.path.join(root_dir, 'paper')
 if not os.path.exists(root_dir): os.mkdir(root_dir)
 if not os.path.exists(paper_dir): os.mkdir(paper_dir)
